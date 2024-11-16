@@ -1,0 +1,52 @@
+<style>
+    /* Navigation Bar: */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    nav li {
+        display: inline-block;
+        position: relative;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+    }
+
+    /* hide drop-down menu's contents. */
+    .drop-down-content {
+        display: none;
+        position: absolute;
+
+    }
+
+    /* display the drop-down menu's contents when it's being hovered. */
+    .drop-down-menu:hover .drop-down-content  {
+        display: block;
+    }
+</style>
+
+<nav>
+    <ul>
+        <li class="drop-down-menu">
+            <a href="#">Projects</a>
+            <ul class="drop-down-content">
+                <li><a href="https://plazmazist.github.io/PaperMarioDatabase/">The Paper Mario Database</a></li>
+            </ul>
+        </li>
+
+        <li class="drop-down-menu">
+            <a href="#">Blogs</a>
+            <ul class="drop-down-content">
+                <li><a href="./blogs/wallpaper.html">Wallpaper Blog</a></li>
+            </ul>
+        </li>
+
+        <li><a href="https://github.com/Plazmazist/Plazmazist.github.io">GitHub</a></li>
+    </ul>
+</nav>
