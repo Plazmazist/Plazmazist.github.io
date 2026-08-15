@@ -1,0 +1,19 @@
+# Build Output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+docs/
+
+# VSC
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
