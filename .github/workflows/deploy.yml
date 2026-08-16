@@ -27,10 +27,10 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore PlazmaPortal.sln
 
       - name: Generate static HTML export
-        run: dotnet run --project . -- --generate-static
+        run: dotnet run --project PlazmaPortal.csproj -- --generate-static
 
       - name: Validate export output
         run: |
